@@ -1,0 +1,17 @@
+.progress{
+    width: 200px;
+    height: 20px;
+    background-color: rgb(245, 196, 137);
+    margin: 100px;
+}
+.scale{
+    width: 0px;
+    height: 100%;
+    background-color: blue;
+    animation: scals 10s forwards;
+}
+
+@keyframes scals {
+    from{width: 0px;}
+    to{width: 180px;}
+}

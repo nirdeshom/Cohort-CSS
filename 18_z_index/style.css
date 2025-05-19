@@ -1,0 +1,45 @@
+.main{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    background-color: cadetblue;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    /* position: absolute; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+}
+
+/* z-index */
+.one{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+}
+.two{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(246, 255, 0);
+    position: absolute;
+    z-index: 2;
+
+}
+.three{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 255, 51);
+    position: absolute;
+    /* z-index: 3; */
+}
+.four{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 0, 174);
+    position: absolute;
+}
